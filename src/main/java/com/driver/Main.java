@@ -3,13 +3,13 @@ package com.driver;
 public class Main {
 
     public static void main (String args[]){
-        product p=new product();
-        System.out.println(p.product(2,3));
-        System.out.println(p.product(1,2,3));
-        System.out.println(p.product(2.0,3.0));
+        Product p=new Product();
+        p.product(2,3);
+        p.product(1,2,3);
+        p.product(2.0,3.0);
     }
 
-    public static class product{
+    public static class Product{
         public int product(int x, int y) {
             return x+y;
         }

@@ -4,7 +4,7 @@ public class Main {
 
     public static void main (String args[]){
         product p=new product();
-        System.out.pintln(p.product(2,3));
+        System.out.println(p.product(2,3));
         System.out.println(p.product(1,2,3));
         System.out.println(p.product(2.0,3.0));
     }
